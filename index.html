@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login And Create</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="logo"><img src="" alt=""></div>
+    <h1 >Sign to InterMart</h1>
+    <div class="full-form">
+        <div class="two-tabs">
+            <button class="tabs" onclick="changepage('login')">Sign In</button>
+            <button class="tabs" onclick="changepage('create')">Sign Up</button>
+        </div>
+        <form id='login-form' action="#">
+            <label class=" inputs-labels" for="username">Username or email address</label>
+            <input class="inputs" type="text" style="padding: 12px;" class="username" placeholder="Username or email">
+            <label class=" inputs-labels"  for="password">Password</label>
+            <input class="inputs" type="text" style="padding: 12px;" class="password" placeholder="Passwords">
+            <a class='forgot-pass' href="#">Forgot password?</a>
+            <input class="remember" type="checkbox"><label for="">Remember me</label>
+            <button class="inputs submit" type="submit" >Sign In</button>
+            <div class="create-account">
+                <span>New to InterMart? <a href="#">Create an account</a></span>
+            </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

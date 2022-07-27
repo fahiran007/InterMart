@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+html,
+body {
+  height: 800px;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Times New Roman", Times, serif;
+}
+.two-tabs {
+  width: 100%;
+}
+.tabs {
+  height: 3rem;
+  width: 50%;
+  border: none;
+  float: left;
+  font-size: 1.2rem;
+}
+.full-form {
+  border-radius: 10px;
+  width: 20rem;
+  height: auto;
+  border: 1.5px solid black;
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  background-color: rgb(244, 243, 243);
+  align-items: center;
+}
+.logo {
+  height: 4rem;
+  background-color: red;
+  width: 4rem;
+}
+h1{
+  height: 45px;
+}
+
+#login-form {
+  height: fit-content;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.inputs-labels {
+  padding: 9px 0 5px 0;
+  display: block;
+  font-size: 17px;
+}
+.inputs {
+  width: 100%;
+  height: 40px;
+  border-radius: 0.8rem;
+  border: 2px black solid;
+  color: black;
+  background-color: rgb(234, 227, 227);
+  font-size: 1rem;
+  z-index: 6;
+  border-style: none;
+}
+.forgot-pass {
+  margin: 16px 0 auto;
+  display: block;
+  font-size: 15px;
+}
+.remember {
+  height: 15px;
+  margin: 10px 4px 10px 0;
+}
+.submit{
+  background-color: rgb(6, 6, 135);
+  color: white;
+}
+.create-account {
+  width: 100%;
+  text-align: center;
+  margin: 15px 0 5px 0;
+  font-size: 1rem;
+}
